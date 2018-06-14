@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Window size="800,600" mininfo="600,400" caption="0,0,0,32" sizebox="4,4,4,4">
+  <VerticalLayout bkcolor="#FFF0F0F0" bkcolor2="#FFAAAAA0">
+    <!-- 标题栏 -->
+    <HorizontalLayout height="24" bkcolor="#FFE6E6DC" bkcolor2="#FFAAAAA0">
+        <HorizontalLayout />
+        <HorizontalLayout width="77">
+        <Button name="minbtn" height="20" normalimage=" file='SysBtn\MinNormal.bmp' "
+              hotimage=" file='SysBtn\MinFocus.bmp' " />
+        <Button name="maxbtn" normalimage=" file='SysBtn\MaxNormal.bmp' "
+              hotimage=" file='SysBtn\MaxFocus.bmp' " />
+
+        <Button name="closebtn" normalimage=" file='SysBtn\closeNormal.bmp' "
+              hotimage=" file='SysBtn\closeFocus.bmp' " />
+   
+      </HorizontalLayout>
+    <!-- 占空位，占据上面所有的空位 -->
+    </HorizontalLayout >
+  </VerticalLayout>
+</Window>

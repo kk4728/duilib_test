@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="694,400">
+    <VerticalLayout width="635" height="400" bkcolor="#FF00FF00">
+        <HorizontalLayout height="30" bkcolor="#FF0000FF">
+            <VerticalLayout height="30" />
+            <VerticalLayout width="77" height="30">
+                <Button name="btnMin" float="true" pos="5,6,0,0" width="19" height="19" bkcolor="#FFC0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                <Button name="btnMax" float="true" pos="29,6,0,0" width="19" height="19" bkcolor="#FFA0A0A4" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                <Button name="btnClose" float="true" pos="53,6,0,0" width="19" height="19" bkcolor="#FFC0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            </VerticalLayout>
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

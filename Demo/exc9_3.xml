@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="800,600" mininfo="600,400" caption="0,0,0,32" sizebox="4,4,4,4">
+  <VerticalLayout bkcolor="#FFF0F0F0" bkcolor2="#FFAAAAA0">
+    <HorizontalLayout />  <!-- 占空位，占据上面所有的空位 -->
+    
+    <!-- 标题栏 -->
+    <HorizontalLayout height="24" bkcolor="#FFE6E6DC" bkcolor2="#FFAAAAA0">
+
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window>

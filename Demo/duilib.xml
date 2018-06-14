@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="800,600"> <!-- 窗口初始尺寸-->
+  <HorizontalLayout bkcolor="#FF00FF00"> <!-- 窗口背景-->
+    <Button name="btnHello" text="hello world!"/> <!--按钮属性，名字，为本-->
+  </HorizontalLayout>
+</Window>

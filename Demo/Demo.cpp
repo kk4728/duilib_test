@@ -7,10 +7,14 @@
 //#include "exc5_nclient.h"
 //#include "exc6_xml.h"
 //#include "exc7_xmlclass.h"
-#include "exc8_windowtitle.h"
+//#include "exc8_windowtitle.h"
 
 //#include "exc9_layout.h"
 //#include "exc10_UI.h"
+
+#include "exc12_controls.h"
+
+
 
 
 int APIENTRY _tWinMain(HINSTANCE hInstance,

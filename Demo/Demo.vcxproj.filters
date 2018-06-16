@@ -31,6 +31,9 @@
     <None Include="exc9_5.xml" />
     <None Include="exc9_6.xml" />
     <None Include="exc9_7.xml" />
+    <None Include="exc12_controls_2.xml" />
+    <None Include="exc12_controls_1.xml" />
+    <None Include="exc13_ComplexCtrl.xml" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -64,6 +67,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="exc10_UI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="exc12_controls.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

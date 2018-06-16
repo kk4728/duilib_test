@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="828,542">
+    <VerticalLayout width="789" height="542">
+        <HorizontalLayout height="30" bkcolor="#FFC0DCC0">
+            <VerticalLayout width="743" height="30" />
+            <VerticalLayout width="81" height="30">
+                <Control float="true" pos="4,5,0,0" width="20" height="20" bkcolor="#FFA6CAF0" />
+                <Control float="true" pos="31,5,0,0" width="20" height="20" bkcolor="#FFA6CAF0" />
+                <Control float="true" pos="58,5,0,0" width="20" height="20" bkcolor="#FFA6CAF0" />
+            </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout width="828">
+            <Progress text="Progress" float="true" pos="59,54,0,0" width="167" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" />
+            <Option text="Option1" float="true" pos="275,54,0,0" width="60" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Option text="Option2" float="true" pos="385,54,0,0" width="60" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Option text="Option3" float="true" pos="495,54,0,0" width="60" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Slider text="Slider" float="true" pos="59,117,0,0" width="167" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" thumbsize="10,10" />
+            <Combo float="true" pos="59,229,0,0" width="156" height="30" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" dropboxsize="0,150" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

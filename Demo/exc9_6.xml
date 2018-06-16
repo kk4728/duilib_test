@@ -6,7 +6,7 @@
     <HorizontalLayout height="24" bkcolor="#FFE6E6DC" bkcolor2="#FFAAAAA0">
         <HorizontalLayout />
         <HorizontalLayout width="77">
-        <Button name="minbtn" height="20" normalimage=" file='SysBtn\MinNormal.bmp' "
+        <Button name="minbtn"  normalimage=" file='SysBtn\MinNormal.bmp' "
               hotimage=" file='SysBtn\MinFocus.bmp' " />
         <Button name="maxbtn" normalimage=" file='SysBtn\MaxNormal.bmp' "
               hotimage=" file='SysBtn\MaxFocus.bmp' " />

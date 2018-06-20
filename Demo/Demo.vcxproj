@@ -74,6 +74,7 @@
     <None Include="exc12_controls_1.xml" />
     <None Include="exc12_controls_2.xml" />
     <None Include="exc13_ComplexCtrl.xml" />
+    <None Include="exc15_ctrldraw.xml" />
     <None Include="exc8.xml">
       <SubType>Designer</SubType>
     </None>
@@ -92,6 +93,7 @@
     <ClInclude Include="dui_base.h" />
     <ClInclude Include="exc10_UI.h" />
     <ClInclude Include="exc12_controls.h" />
+    <ClInclude Include="exc13_complex_ctrls.h" />
     <ClInclude Include="exc5_nclient.h" />
     <ClInclude Include="exc6_xml.h" />
     <ClInclude Include="exc7_xmlclass.h" />

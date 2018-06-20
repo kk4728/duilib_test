@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="xml">
+      <UniqueIdentifier>{4b28f1e7-21f9-4460-8985-6dc9312852ed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
@@ -22,18 +25,45 @@
     <None Include="Demo.ico">
       <Filter>资源文件</Filter>
     </None>
-    <None Include="duilib.xml" />
-    <None Include="exc8.xml" />
-    <None Include="exc9_1.xml" />
-    <None Include="exc9_2.xml" />
-    <None Include="exc9_3.xml" />
-    <None Include="exc9_4.xml" />
-    <None Include="exc9_5.xml" />
-    <None Include="exc9_6.xml" />
-    <None Include="exc9_7.xml" />
-    <None Include="exc12_controls_2.xml" />
-    <None Include="exc12_controls_1.xml" />
-    <None Include="exc13_ComplexCtrl.xml" />
+    <None Include="exc9_7.xml">
+      <Filter>xml</Filter>
+    </None>
+    <None Include="exc9_6.xml">
+      <Filter>xml</Filter>
+    </None>
+    <None Include="exc9_5.xml">
+      <Filter>xml</Filter>
+    </None>
+    <None Include="exc9_4.xml">
+      <Filter>xml</Filter>
+    </None>
+    <None Include="exc9_3.xml">
+      <Filter>xml</Filter>
+    </None>
+    <None Include="exc9_2.xml">
+      <Filter>xml</Filter>
+    </None>
+    <None Include="exc9_1.xml">
+      <Filter>xml</Filter>
+    </None>
+    <None Include="exc8.xml">
+      <Filter>xml</Filter>
+    </None>
+    <None Include="exc13_ComplexCtrl.xml">
+      <Filter>xml</Filter>
+    </None>
+    <None Include="exc12_controls_2.xml">
+      <Filter>xml</Filter>
+    </None>
+    <None Include="exc12_controls_1.xml">
+      <Filter>xml</Filter>
+    </None>
+    <None Include="duilib.xml">
+      <Filter>xml</Filter>
+    </None>
+    <None Include="exc15_ctrldraw.xml">
+      <Filter>xml</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -70,6 +100,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="exc12_controls.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="exc13_complex_ctrls.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

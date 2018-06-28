@@ -13,8 +13,8 @@
 //#include "exc10_UI.h"
 
 //#include "exc12_controls.h"
-#include "exc13_complex_ctrls.h"
-
+//#include "exc13_complex_ctrls.h"
+#include "exc15_menu.h"
 
 
 
@@ -31,16 +31,22 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
 
 	//CPaintManagerUI::SetResourcePath(CPaintManagerUI::GetInstancePath()); //exc6
 
-	CDuiFrameWnd duiFrame;
-	duiFrame.Create(NULL, _T("DUIWnd"), UI_WNDSTYLE_FRAME, WS_EX_WINDOWEDGE);
-	duiFrame.CenterWindow();
-	duiFrame.ShowModal();
+	//CDuiFrameWnd duiFrame;
+	//duiFrame.Create(NULL, _T("DUIWnd"), UI_WNDSTYLE_FRAME, WS_EX_WINDOWEDGE);
+	//duiFrame.CenterWindow();
+	//duiFrame.ShowModal();
 
 	/* exc13 
 	CDuiFrameWnd* pFrame = new CDuiFrameWnd;
 	pFrame->Create(NULL, _T("DUIWnd"), UI_WNDSTYLE_FRAME, WS_EX_WINDOWEDGE);
 	pFrame->CenterWindow();
 	pFrame->ShowModal();*/
+
+	/* exc15 */
+	CDuiMenu* p = new CDuiMenu(_T("..\\Demo\\exc15_menu.xml"));
+	HWND hwnd = p->Create(NULL, _T("DUIWnd"), UI_WNDSTYLE_FRAME, WS_EX_WINDOWEDGE);
+	//p->CenterWindow();
+	p->ShowModal();
 	
 	::CoUninitialize(); //exc13
 	return 0;

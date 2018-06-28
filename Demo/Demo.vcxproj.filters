@@ -61,7 +61,7 @@
     <None Include="duilib.xml">
       <Filter>xml</Filter>
     </None>
-    <None Include="exc15_ctrldraw.xml">
+    <None Include="exc15_menu.xml">
       <Filter>xml</Filter>
     </None>
   </ItemGroup>
@@ -103,6 +103,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="exc13_complex_ctrls.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="exc15_menu.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

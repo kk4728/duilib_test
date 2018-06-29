@@ -64,6 +64,9 @@
     <None Include="exc15_menu.xml">
       <Filter>xml</Filter>
     </None>
+    <None Include="exc15.xml">
+      <Filter>xml</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -106,6 +109,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="exc15_menu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="exc15.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,600" mininfo="600,400" caption="0,0,0,32" sizebox="4,4,4,4">
+  <VerticalLayout bkcolor="#FFF0F0F0" bkcolor2="#FFAAAAA0">
+
+    
+    <!-- Client -->
+    <Label text="GroupBox" float="true" pos="30,160,0,0" width="50" height="18" textcolor="#000046D5" disabledtextcolor="#FFA7A6AA" />
+    <Control float="true" pos="83,168,0,0" width="83" height="1" bkcolor="#FFAAAAA0"/>
+  </VerticalLayout>
+</Window>

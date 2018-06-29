@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F836512A-C3EB-4E98-B664-E1DCFB0D8670}</ProjectGuid>
+    <ProjectGuid>{EC37447B-9714-4823-981E-0C11B4B95394}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Demo</RootNamespace>
+    <RootNamespace>EVA</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -67,62 +67,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="Demo.ico" />
-    <None Include="duilib.xml">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="exc12_controls_1.xml" />
-    <None Include="exc12_controls_2.xml" />
-    <None Include="exc13_ComplexCtrl.xml" />
-    <None Include="exc15.xml" />
-    <None Include="exc15_menu.xml">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="exc8.xml">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="exc9_1.xml" />
-    <None Include="exc9_2.xml" />
-    <None Include="exc9_3.xml" />
-    <None Include="exc9_4.xml" />
-    <None Include="exc9_5.xml" />
-    <None Include="exc9_6.xml" />
-    <None Include="exc9_7.xml" />
+    <None Include="EVA.ico" />
     <None Include="ReadMe.txt" />
     <None Include="small.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Demo.h" />
-    <ClInclude Include="dui_base.h" />
-    <ClInclude Include="exc10_UI.h" />
-    <ClInclude Include="exc12_controls.h" />
-    <ClInclude Include="exc13_complex_ctrls.h" />
-    <ClInclude Include="exc15.h" />
-    <ClInclude Include="exc15_menu.h" />
-    <ClInclude Include="exc5_nclient.h" />
-    <ClInclude Include="exc6_xml.h" />
-    <ClInclude Include="exc7_xmlclass.h" />
-    <ClInclude Include="exc8_windowtitle.h" />
-    <ClInclude Include="exc9_layout.h" />
+    <ClInclude Include="..\include\dui_base.h" />
+    <ClInclude Include="EVA.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Demo.cpp" />
+    <ClCompile Include="EVA.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Demo.rc" />
+    <ResourceCompile Include="EVA.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
   <PropertyGroup>
-    <IncludePath>D:\SoftSDK\WTL10_7336\Include;D:\SoftSDK\duilib;$(IncludePath)</IncludePath>
+    <IncludePath>D:\SoftSDK\duilib;$(IncludePath)</IncludePath>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
   </PropertyGroup>

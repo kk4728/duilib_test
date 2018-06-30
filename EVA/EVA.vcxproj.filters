@@ -22,6 +22,7 @@
     <None Include="EVA.ico">
       <Filter>资源文件</Filter>
     </None>
+    <None Include="eva.xml" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">

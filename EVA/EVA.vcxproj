@@ -68,6 +68,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="EVA.ico" />
+    <None Include="eva.xml" />
     <None Include="ReadMe.txt" />
     <None Include="small.ico" />
   </ItemGroup>

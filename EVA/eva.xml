@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <Window size="800,480">
-    <VerticalLayout width="800" height="480" bkcolor="#FFC0C0C0" bkcolor2="#00A6CAF0">
-        <HorizontalLayout name="HL_Head" width="800" height="32">
-            <Text float="true" pos="3,2,0,0" width="28" height="28" textpadding="2,0,2,0" align="wrap" />
-            <Text float="true" pos="33,2,0,0" width="617" height="28" textpadding="2,0,2,0" align="wrap" />
-            <Button name="btn_min" float="true" pos="703,2,0,0" width="30" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
-            <Button name="btn_close" float="true" pos="768,2,0,0" width="30" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
-            <Button name="btn_max" float="true" pos="736,2,0,0" width="30" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+    <VerticalLayout width="800" height="480" bkcolor="#FFF0F0F0" bkcolor2="#FFAAAAA0">
+        <HorizontalLayout name="HL_Head" width="800" height="26">
+            <Text float="true" pos="33,2,0,0" width="666" height="28" textpadding="2,0,2,0" align="wrap" />
+            <Button name="btn_min" float="true" pos="703,2,0,0" width="24" height="24" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="btn_close" float="true" pos="768,2,0,0" width="24" height="24" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="btn_max" float="true" pos="736,2,0,0" width="24" height="24" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Control name="ctrl_logo" width="30" height="30" bkimage="file=&apos;E:\Programming\UI\Duilib\W227-2013 duilib入门简明教程 整个工程(含资源、代码)_\Release\icon.png&apos; mask=&apos;0xff00ff00&apos;" />
         </HorizontalLayout>
-        <HorizontalLayout name="HL_Menu" width="800" height="32">
-            <Button name="btnHelp" text="Help" float="true" pos="4,1,0,0" width="63" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        <HorizontalLayout name="HL_Menu" width="800" height="28">
+            <Button name="btnHelp" text="Help" float="true" pos="4,1,0,0" width="32" height="24" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
         </HorizontalLayout>
         <VerticalLayout name="VL_RunInfo" width="294" height="312">
             <List width="294" height="152" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF">
                 <ListHeader />
             </List>
-            <Label height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Label text="PFMeter(ALLDUT)" height="30" bkcolor="#FF9200FF" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" font="12" align="center" />
             <Progress height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" />
             <HorizontalLayout height="30">
                 <Label name="lbl_pass" text="PASS" float="true" pos="3,4,0,0" width="40" height="23" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
-                <Edit name="tbx_pass" text="1234567" float="true" pos="43,4,0,0" width="48" height="23" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Edit name="tbx_pass" text="1234567" float="true" pos="43,4,0,0" width="50" height="23" bkcolor="#FF00FF00" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
                 <Label name="lbl_fail" text="Fail" float="true" pos="96,4,0,0" width="40" height="23" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
-                <Edit name="tbx_fail" text="1234567" float="true" pos="136,4,0,0" width="48" height="23" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Edit name="tbx_fail" text="1234567" float="true" pos="136,4,0,0" width="50" height="23" bkcolor="#FFFF4200" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
                 <Label name="lbl_total" text="Total" float="true" pos="192,4,0,0" width="40" height="23" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
-                <Edit name="tbx_total" text="1234567" float="true" pos="232,4,0,0" width="60" height="23" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Edit name="tbx_total" text="12345678" float="true" pos="232,4,0,0" width="60" height="23" bkcolor="#FFFFE9FF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
             </HorizontalLayout>
             <Label name="lbl_status" text="Ready" bordersize="1" width="294" height="68" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
         </VerticalLayout>

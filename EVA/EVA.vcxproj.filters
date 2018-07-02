@@ -23,6 +23,7 @@
       <Filter>资源文件</Filter>
     </None>
     <None Include="eva.xml" />
+    <None Include="..\res\Menu\menu.xml" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -40,12 +41,24 @@
     <ClInclude Include="..\include\dui_base.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="FrameWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="EVA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuWnd.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

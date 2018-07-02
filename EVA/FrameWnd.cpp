@@ -1,4 +1,5 @@
 #include "stdafx.h"
+#include "Resource.h"
 #include "FrameWnd.h"
 #include "MenuWnd.h"
 
@@ -9,7 +10,7 @@ CDuiFrameWnd::CDuiFrameWnd(LPCTSTR pszXMLPath)
 }
 
 void CDuiFrameWnd::InitWindow() {
-	//SetIcon(IDR_MAINFRAME); // 设置任务栏图标
+	SetIcon(IDI_ICON1); // 设置任务栏图标
 	CenterWindow();
 
 	//初始化进度条
@@ -25,19 +26,21 @@ void CDuiFrameWnd::InitWindow() {
 		pListElement->SetTag(i);
 		pList->Add(pListElement);
 		
+		pListElement->SetBorderSize(2);
+		pListElement->SetBorderColor(0xFFffffff);
 		switch(i)
 		{
 		case 0:
-			pListElement->SetText(0, _T(" Batch filename"));
-			pListElement->SetText(1, _T(" BR17_EVA100_C_V6.0_8S.bat"));
+			pListElement->SetText(0, _T("Batch filename"));
+			pListElement->SetText(1, _T("BR17_EVA100_C_V6.0_8S.bat"));
 			break;
 		case 1:
-			pListElement->SetText(0, _T(" Program name"));
-			pListElement->SetText(1, _T(" BR17_EVA100_C_V6.0_8S.atelier"));
+			pListElement->SetText(0, _T("Program name"));
+			pListElement->SetText(1, _T("BR17_EVA100_C_V6.0_8S.atelier"));
 			break;
 		case 2:
-			pListElement->SetText(0, _T(" Flow name"));
-			pListElement->SetText(1, _T(" Test Flow"));
+			pListElement->SetText(0, _T("Flow name"));
+			pListElement->SetText(1, _T("Test Flow"));
 			break;
 		case 3:
 			pListElement->SetText(0, _T("Number of DUIs"));
@@ -91,16 +94,23 @@ void CDuiFrameWnd::InitWindow() {
 }
 
 void CDuiFrameWnd::Notify(TNotifyUI& msg) {
-	if( msg.sType == _T("click") ) 
-	{
-		if( msg.pSender->GetName() == _T("btnMenu") ) 
-		{
+	if( msg.sType == _T("click") ) {
+		if( msg.pSender->GetName() == _T("btnMenu") ) {
 			POINT pt = {msg.ptMouse.x, msg.ptMouse.y};
 			CMenuWnd *pMenu = new CMenuWnd(_T("../res/Menu/menu.xml"));
 
 			pMenu->Init(*this, pt);
 			pMenu->ShowWindow(TRUE);
 		}
+		else if(msg.pSender->GetName() == _T("btn_start")) {
+			CProgressUI* pControl = static_cast<CProgressUI*>(m_PaintManager.FindControl(_T("pbx_percent")));
+			int var = pControl->GetValue();
+			var -=10;
+			pControl->SetFixedWidth(pControl->GetWidth()*0.9);
+			//pControl->SetValue(var);
+			//pControl->SetText();
+		}
+
 	}
 	else if(msg.sType == _T("selectchanged"))
 	{

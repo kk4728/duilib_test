@@ -24,6 +24,12 @@
     </None>
     <None Include="eva.xml" />
     <None Include="..\res\Menu\menu.xml" />
+    <None Include="res\eva.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\eva.ico">
+      <Filter>资源文件</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">

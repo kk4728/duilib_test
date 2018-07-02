@@ -67,12 +67,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="..\res\Menu\menu.xml" />
+    <None Include="..\res\Menu\menu.xml">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="EVA.ico" />
     <None Include="eva.xml">
       <SubType>Designer</SubType>
     </None>
     <None Include="ReadMe.txt" />
+    <None Include="res\eva.ico" />
+    <None Include="res\eva.png" />
     <None Include="small.ico" />
   </ItemGroup>
   <ItemGroup>

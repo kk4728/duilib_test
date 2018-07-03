@@ -37,7 +37,10 @@
             </List>
           
             <Label text="PFMeter(ALLDUT)" height="24" padding="2,2,2,2" bordersize="0" bordercolor="#FFFFFFFF" bkcolor="#FF9200FF" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" font="12" align="center" />
-            <Progress name="pbx_percent" height="30" padding="2,2,2,2" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" foreimage="../res/Progress/progress_fore.png" />
+            <HorizontalLayout height="26">
+              <Progress name="pbx_percent" float="true" pos="1,1,0,0" width="147" height="26"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="left" min="0" max="100" value="0" hor="true" foreimage="../res/Progress/progress_fore.png" />
+              <Progress name="pbx_percent_ng" float="true" pos="147,1,0,0" width="147" height="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="right" min="0" max="100" value="0" hor="true" foreimage="../res/Progress/progress_fore2.png"  />
+            </HorizontalLayout>
             <HorizontalLayout height="30">
                 <Label name="lbl_pass" text="PASS" float="true" pos="3,4,0,0" width="40" height="23" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
                 <Edit name="tbx_pass" text="1234567" float="true" pos="43,4,0,0" width="50" height="23" bkcolor="#FF00FF00" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />

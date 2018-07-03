@@ -16,6 +16,15 @@ void CDuiFrameWnd::InitWindow() {
 	//初始化进度条
 	CProgressUI* pProgress = static_cast<CProgressUI*>(m_PaintManager.FindControl(_T("pbx_percent")));
 	pProgress->SetValue(100);
+	pProgress->SetText(_T("50%"));
+
+	{
+		CProgressUI* pProgress = static_cast<CProgressUI*>(m_PaintManager.FindControl(_T("pbx_percent_ng")));
+		pProgress->SetValue(100);
+		pProgress->SetText(_T("50%"));
+		RECT rect = pProgress->GetPos();
+	}
+	
 
 	//初始化List控件
 	CDuiString str;
@@ -105,10 +114,14 @@ void CDuiFrameWnd::Notify(TNotifyUI& msg) {
 		else if(msg.pSender->GetName() == _T("btn_start")) {
 			CProgressUI* pControl = static_cast<CProgressUI*>(m_PaintManager.FindControl(_T("pbx_percent")));
 			int var = pControl->GetValue();
+	
 			var -=10;
+			CDuiString str;
+			str.Format(_T("%.2f"), var);
 			pControl->SetFixedWidth(pControl->GetWidth()*0.9);
 			//pControl->SetValue(var);
-			//pControl->SetText();
+			pControl->SetText(str+_T("%"));
+			
 		}
 
 	}

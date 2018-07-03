@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,600">
+    <Font id="0" name="30号字体" size="30" bold="false" italic="false" />
+    <Font id="1" name="15号字体" size="15" bold="false" italic="false" />
+    <VerticalLayout width="800" height="600" bkcolor="#FFC0C0C0" bkcolor2="#FFA7A6AA" bordercolor="#009B8D76">
+        <VerticalLayout name="VL_Head" height="26" >
+            <HorizontalLayout height="26" bkcolor="#FFEFFFCF" >
+                <HorizontalLayout width="688" height="26">
+                    <Control name="ctrl_logo" float="true" pos="1,1,0,0" width="24" height="24" bkimage=" file='.\eva2nd.bmp' "/>
+                    <Label name="lbl_head" text="EVA Production Environment Tool" float="true" pos="32,0,0,0" width="655" height="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                </HorizontalLayout>
+                <HorizontalLayout height="26">
+                    <Button name="btn_sets" float="true" pos="3,1,0,0" width="28" height="23" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                    <Button name="closebtn" float="true" pos="86,1,0,0" width="28" height="23" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file='..\res\SysBtn\CloseNormal.bmp' " hotimage=" file='..\res\SysBtn\CloseFocus.bmp' " focusedimage=" file='..\res\SysBtn\CloseNormal.bmp' " pushedimage=" file='..\res\SysBtn\CloseFocus.bmp' "/>
+                    <Button name="maxbtn"   float="true" pos="59,1,0,0" width="28" height="23" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file='..\res\SysBtn\MaxNormal.bmp' " hotimage=" file='..\res\SysBtn\MaxFocus.bmp' " focusedimage=" file='..\res\SysBtn\MaxNormal.bmp' " pushedimage=" file='..\res\SysBtn\MaxFocus.bmp' "/>
+                    <Button name="minbtn"   float="true" pos="31,1,0,0" width="28" height="23" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file='..\res\SysBtn\MinNormal.bmp' " hotimage=" file='..\res\SysBtn\MinFocus.bmp' " focusedimage=" file='..\res\SysBtn\MinNormal.bmp' " pushedimage=" file='..\res\SysBtn\MinFocus.bmp' "/>
+                    <Button name="restorebtn" visible="false" float="true" pos="59,1,0,0" width="28" height="23" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file='..\res\SysBtn\StoreNormal.bmp' " hotimage=" file='..\res\SysBtn\StoreFocus.bmp' " focusedimage=" file='..\res\SysBtn\StoreNormal.bmp' " pushedimage=" file='..\res\SysBtn\StoreFocus.bmp' "/>
+                </HorizontalLayout>
+            </HorizontalLayout>
+        </VerticalLayout>
+      
+        <!--菜单-->
+        <HorizontalLayout name="HL_Menu" height="26" bkcolor="#FFBDC7D7">
+            <Button text="Help" float="true" pos="3,1,0,0" width="42" height="24" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        </HorizontalLayout>
+        <HorizontalLayout name="HL_Main" width="800">
+            <Control width="5" bkcolor="#FFF5E8D1" />
+            <HorizontalLayout width="790" height="522">
+                <HorizontalLayout width="790" height="400">
+                    <VerticalLayout name="VL_Info" width="240" height="400" bordersize="1" bordercolor="#FFC0C0C0">
+                        <Label text="Project information" height="24" bkcolor="#FF5780FF" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+                        <List width="240" height="240" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF">
+                            <ListHeader />
+                        </List>
+                        <Label text="PFMeter" height="24" bkcolor="#FF5780FF" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+                        <Slider height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" thumbsize="10,10" />
+                        <HorizontalLayout name="HL_RunInfo" height="30">
+                            <Label text="Pass" float="true" pos="2,10,0,0" width="30" height="15" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                            <Edit text="123456" float="true" pos="31,7,0,0" width="45" height="18" bkcolor="#FF00FF00" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                            <Label text="Fail" float="true" pos="77,3,0,0" width="30" height="24" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                            <Edit text="123456" float="true" pos="108,7,0,0" width="45" height="18" bkcolor="#FFFF0000" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                            <Label text="Total" float="true" pos="158,3,0,0" width="30" height="24" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                            <Edit text="1234567" float="true" pos="188,7,0,0" width="48" height="18" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        </HorizontalLayout>
+                        <Label text="Ready" width="240" height="49" bkcolor="#FF008067" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                    </VerticalLayout>
+                    <VerticalLayout>
+                        <HorizontalLayout width="550" height="27">
+                            <Option text="Program load" width="83" height="26" bkcolor="#FFC0C0C0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                            <Option text="User parameter" width="92" height="26" bkcolor="#FFC0C0C0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                            <Option text="PFMeter" width="54" height="26" bkcolor="#FFC0C0C0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                            <Option text="HWBin" width="54" height="26" bkcolor="#FFC0C0C0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                            <Option text="SWBin" width="54" height="26" bkcolor="#FFC0C0C0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                            <Option text="Datalog" width="54" height="26" bkcolor="#FFC0C0C0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                        </HorizontalLayout>
+                        <HorizontalLayout />
+                    </VerticalLayout>
+                </HorizontalLayout>
+                <HorizontalLayout float="true" pos="0,400,0,0" width="791" height="119" bkcolor="#FF00C000">
+                    <List itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF">
+                        <ListHeader />
+                    </List>
+                </HorizontalLayout>
+            </HorizontalLayout>
+            <Control width="5" bkcolor="#FFF5E8D1" />
+        </HorizontalLayout>
+        <HorizontalLayout name="HL_Status" height="26" bkcolor="#FFC0C0C0"/>
+    </VerticalLayout>
+</Window>

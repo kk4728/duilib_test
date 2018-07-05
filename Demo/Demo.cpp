@@ -12,10 +12,10 @@
 //#include "exc9_layout.h"
 //#include "exc10_UI.h"
 
-//#include "exc12_controls.h"
+#include "exc12_controls.h"
 //#include "exc13_complex_ctrls.h"
 //#include "exc15_menu.h"
-#include "exc15.h"
+//#include "exc15.h"
 
 
 

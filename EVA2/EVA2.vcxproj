@@ -72,10 +72,12 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="eva2nd.ico" />
+    <None Include="PFMeter.xml" />
     <None Include="ReadMe.txt" />
     <None Include="small.ico" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ControlEx.h" />
     <ClInclude Include="EVA2.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />

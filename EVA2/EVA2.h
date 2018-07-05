@@ -3,6 +3,7 @@
 #include "resource.h"
 
 #include "../include/dui_base.h"
+#include "ControlEx.h"
 
 class CEVA : public CWindowWnd, public INotifyUI
 {
@@ -26,6 +27,82 @@ public:
 		m_pMinBtn = static_cast<CButtonUI*>(m_pm.FindControl(_T("minbtn")));
 
 		SetIcon(IDI_ICON1); // 设置任务栏图标
+
+		//////////////////////////////////////////////////////////////////////////
+		//初始化List控件
+		CDuiString str;
+		CListUI* pList = static_cast<CListUI*>(m_pm.FindControl(_T("lbx_proInfo")));
+		for (int i = 0; i < 8; i++)
+		{
+			CListTextElementUI* pListElement = new CListTextElementUI;
+			pListElement->SetTag(i);
+			pList->Add(pListElement);
+
+			pListElement->SetBorderSize(2);
+			pListElement->SetBorderColor(0xFFffffff);
+			switch(i)
+			{
+			case 0:
+				pListElement->SetText(0, _T("Batch filename"));
+				pListElement->SetText(1, _T("BR17_EVA100_C_V6.0_8S.bat"));
+				break;
+			case 1:
+				pListElement->SetText(0, _T("Program name"));
+				pListElement->SetText(1, _T("BR17_EVA100_C_V6.0_8S.atelier"));
+				break;
+			case 2:
+				pListElement->SetText(0, _T("Flow name"));
+				pListElement->SetText(1, _T("Test Flow"));
+				break;
+			case 3:
+				pListElement->SetText(0, _T("Number of DUIs"));
+				pListElement->SetText(1, _T("8"));
+				break;
+			case 4:
+				pListElement->SetText(0, _T("Product No."));
+				pListElement->SetText(1, _T("BR17"));
+				break;
+			case 5:
+				pListElement->SetText(0, _T("Lot No."));
+				pListElement->SetText(1, _T("AP19645"));
+				break;
+			case 6:
+				pListElement->SetText(0, _T("Operator name"));
+				pListElement->SetText(1, _T("BR17"));
+				break;
+			case 7:
+				pListElement->SetText(0, _T("Comment"));
+				pListElement->SetText(1, _T("1"));
+				break;
+			default:
+				break;
+			}	
+		} 
+
+		//初始化List - Log控件
+		{
+			CListUI* pList = static_cast<CListUI*>(m_pm.FindControl(_T("lbx_log")));
+			for (int i = 0; i < 2; i++)
+			{
+				CListTextElementUI* pListElement = new CListTextElementUI;
+				pListElement->SetTag(i);
+				pList->Add(pListElement);
+				switch(i)
+				{
+				case 0:
+					pListElement->SetText(0, _T("12/2/2017 06:27:44 AM: Data log file has been generated. :C\\eva\\PETOOL\\User\\log\\BR17_AP19645-10_20171202050421_Dlog.txt"));
+					pListElement->SetBkColor(0xFFA5A5A5);
+					break;
+				case 1:
+					pListElement->SetBkColor(0x005A5A5A);
+					pListElement->SetText(0, _T("12/2/2017 08:37:56 AM: Summary file has been generated. :C\\eva\\PETOOL\\User\\log\\BR17_AP19645-10_20171202050421_Summry.txt"));
+					break;
+				default:
+					break;
+				}	
+			}
+		}
+
 	}
 
 	void OnPrepare() {
@@ -48,7 +125,15 @@ public:
 		}
 		else if(msg.sType==_T("selectchanged"))
 		{
+			CDuiString    strName     = msg.pSender->GetName();
+			CTabLayoutUI* pControl = static_cast<CTabLayoutUI*>(m_pm.FindControl(_T("tab_sys")));
 
+			if(strName == _T("opt_program_load"))		pControl->SelectItem(0);
+			else if(strName == _T("opt_user_param"))	pControl->SelectItem(1);
+			else if(strName == _T("opt_pfmeter"))		pControl->SelectItem(2);
+			else if(strName == _T("opt_hwbin"))			pControl->SelectItem(4);
+			else if(strName == _T("opt_swbin"))			pControl->SelectItem(5);
+			else if(strName == _T("opt_datalog"))		pControl->SelectItem(6);
 		}
 	}
 
@@ -62,8 +147,8 @@ public:
 
 		m_pm.Init(m_hWnd);
 		CDialogBuilder builder;
-		//CDialogBuilderCallbackEx cb;
-		CControlUI* pRoot = builder.Create(_T("..\\EVA2\\eva2.xml"), (UINT)0,  NULL, &m_pm);
+		CDialogBuilderCallbackEx cb;
+		CControlUI* pRoot = builder.Create(_T("..\\EVA2\\eva2.xml"), (UINT)0,  &cb, &m_pm);
 		ASSERT(pRoot && "Failed to parse XML");
 		m_pm.AttachDialog(pRoot);
 		m_pm.AddNotifier(this);

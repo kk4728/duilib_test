@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="530,395">
+    <VerticalLayout bordersize="1" width="530" height="395" bkcolor="#FFF0F0F0" bordercolor="#00C0DCC0">
+        <HorizontalLayout name="HL_DUT" height="30">
+            <Label bordersize="1" float="true" pos="6,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Label text="DUI1" bordersize="1" float="true" pos="63,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="DUI2" bordersize="1" float="true" pos="120,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="DUI3" bordersize="1" float="true" pos="177,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="DUI4" bordersize="1" float="true" pos="234,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="DUI5" bordersize="1" float="true" pos="291,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="DUI6" bordersize="1" float="true" pos="348,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="DUI7" bordersize="1" float="true" pos="405,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="DUI8" bordersize="1" float="true" pos="462,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        </HorizontalLayout>
+        <HorizontalLayout name="HL_Comment" height="60">
+            <Label text="Comment" bordersize="1" float="true" pos="6,3,0,0" width="50" height="54" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="PASS" bordersize="1" float="true" pos="63,3,0,0" width="50" height="54" bkcolor="#FF00FF00" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="PASS" bordersize="1" float="true" pos="120,3,0,0" width="50" height="54" bkcolor="#FF00FF00" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="PASS" bordersize="1" float="true" pos="177,3,0,0" width="50" height="54" bkcolor="#FF00FF00" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="PASS" bordersize="1" float="true" pos="234,3,0,0" width="50" height="54" bkcolor="#FF00FF00" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="PASS" bordersize="1" float="true" pos="291,3,0,0" width="50" height="54" bkcolor="#FF00FF00" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="Bin7" bordersize="1" float="true" pos="348,3,0,0" width="50" height="54" bkcolor="#FFFF0000" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="Bin8" bordersize="1" float="true" pos="405,3,0,0" width="50" height="54" bkcolor="#FFFF0000" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="Bin2" bordersize="1" float="true" pos="462,3,0,0" width="50" height="54" bkcolor="#FFC0DCC0" bkcolor2="#0000FFFF" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        </HorizontalLayout>
+        <HorizontalLayout name="HL_Sep1" width="530" height="2" bkcolor="#FF800000" />
+        <HorizontalLayout name="HL_Yield" width="530" height="210">
+            <Label text="Yield" bordersize="1" float="true" pos="6,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Slider text="95%" bordersize="1" float="true" pos="63,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" thumbsize="10,10" />
+            <Slider text="90%" bordersize="1" float="true" pos="120,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" thumbsize="10,10" />
+            <Slider text="89%" bordersize="1" float="true" pos="177,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" thumbsize="10,10" />
+            <Slider text="88%" bordersize="1" float="true" pos="234,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" thumbsize="10,10" />
+            <Slider text="95%" bordersize="1" float="true" pos="291,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" thumbsize="10,10" />
+            <Slider text="98%" bordersize="1" float="true" pos="348,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" thumbsize="10,10" />
+            <Slider text="95%" bordersize="1" float="true" pos="405,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" thumbsize="10,10" />
+            <Slider text="99%" bordersize="1" float="true" pos="462,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" thumbsize="10,10" />
+        </HorizontalLayout>
+        <HorizontalLayout name="HL_Sep2" height="2" bkcolor="#FF000080" />
+        <HorizontalLayout name="HL_Pass" width="530" height="30">
+            <Label text="Pass" bordersize="1" float="true" pos="6,2,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="7732" bordersize="1" float="true" pos="63,2,0,0" width="50" height="25" bkcolor="#FF00FF00" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="9840" bordersize="1" float="true" pos="120,2,0,0" width="50" height="25" bkcolor="#FF00FF00" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="1" bordersize="1" float="true" pos="177,2,0,0" width="50" height="25" bkcolor="#FF00FF00" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="2" bordersize="1" float="true" pos="234,2,0,0" width="50" height="25" bkcolor="#FF00FF00" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="3" bordersize="1" float="true" pos="291,2,0,0" width="50" height="25" bkcolor="#FF00FF00" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="4" bordersize="1" float="true" pos="348,2,0,0" width="50" height="25" bkcolor="#FF00FF00" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="5" bordersize="1" float="true" pos="405,2,0,0" width="50" height="25" bkcolor="#FF00FF00" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="6" bordersize="1" float="true" pos="462,2,0,0" width="48" height="25" bkcolor="#FF00FF00" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        </HorizontalLayout>
+        <HorizontalLayout name="HL_Fail" height="30">
+            <Label text="Fail" bordersize="1" float="true" pos="6,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="1268" bordersize="1" float="true" pos="63,3,0,0" width="50" height="25" bkcolor="#FFFF0000" bordercolor="#00C0DCC0" textcolor="#00FFFFE9" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="1238" bordersize="1" float="true" pos="120,3,0,0" width="50" height="25" bkcolor="#FFFF0000" bordercolor="#00C0DCC0" textcolor="#00E9FFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="1248" bordersize="1" float="true" pos="177,3,0,0" width="50" height="25" bkcolor="#FFFF0000" bordercolor="#00C0DCC0" textcolor="#00E9FFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="1133" bordersize="1" float="true" pos="234,3,0,0" width="50" height="25" bkcolor="#FFFF0000" bordercolor="#00C0DCC0" textcolor="#00E9FFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="965" bordersize="1" float="true" pos="291,3,0,0" width="50" height="25" bkcolor="#FFFF0000" bordercolor="#00C0DCC0" textcolor="#00E9FFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="1365" bordersize="1" float="true" pos="348,3,0,0" width="50" height="25" bkcolor="#FFFF0000" bordercolor="#00C0DCC0" textcolor="#00E9FFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="569" bordersize="1" float="true" pos="405,3,0,0" width="50" height="25" bkcolor="#FFFF0000" bordercolor="#00C0DCC0" textcolor="#00E9FFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="897" bordersize="1" float="true" pos="462,3,0,0" width="50" height="25" bkcolor="#FFFF0000" bordercolor="#00C0DCC0" textcolor="#00E9FFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+        </HorizontalLayout>
+        <HorizontalLayout width="530" height="30">
+            <Label text="Total" bordersize="1" float="true" pos="6,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="10000" bordersize="1" float="true" pos="63,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="12200" bordersize="1" float="true" pos="120,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="15000" bordersize="1" float="true" pos="177,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="1200" bordersize="1" float="true" pos="234,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="1300" bordersize="1" float="true" pos="291,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="1400" bordersize="1" float="true" pos="348,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="1700" bordersize="1" float="true" pos="405,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="6005" bordersize="1" float="true" pos="462,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

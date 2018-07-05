@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <Window size="800,600" mininfo="600,400" caption="0,0,0,32" sizebox="4,4,4,4">
-  <VerticalLayout bkcolor="#FFF0F0F0" bkcolor2="#FFAAAAA0">
+  <VerticalLayout bkcolor="#00F0F0F0" bkcolor2="#00AAAAA0">
     <!-- 标题栏区 -->
     <HorizontalLayout height="32" bkcolor="#FFE6E6DC" bkcolor2="#FFAAAAA0">
       <VerticalLayout />

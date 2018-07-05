@@ -26,6 +26,7 @@
     <None Include="eva2nd.ico">
       <Filter>资源文件</Filter>
     </None>
+    <None Include="PFMeter.xml" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -38,6 +39,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="EVA2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlEx.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

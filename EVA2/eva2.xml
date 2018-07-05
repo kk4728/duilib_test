@@ -72,13 +72,13 @@
                             <Option name="opt_swbin"        text="SWBin" width="54" height="26" bkcolor="#FFC0C0C0" selectedtextcolor="#FF0000FF" selectedbkcolor="#FFC5D4F2" group="tabDemo"  align="center" />
                             <Option name="opt_datalog"      text="Datalog" width="54" height="26" bkcolor="#FFC0C0C0" selectedtextcolor="#FF0000FF" selectedbkcolor="#FFC5D4F2" group="tabDemo"  align="center" />
                         </HorizontalLayout >
-                          <TabLayout 	name="tab_sys"  bkcolor="#FF757676"  >
+                          <TabLayout 	name="tab_sys"  bkcolor="#FF757676" height="400" >
                             <HorizontalLayout>
                               <Label text="Label" bkcolor="#FFC5D4F2" align="center" />
                             </HorizontalLayout>
                             <Text text="Text" bkcolor="#FFFFDC78" align="centerwrap" height="160"/>
                             <HorizontalLayout>
-                              <PFMeter height="400" />
+                              <PFMeter />
                             </HorizontalLayout>
                           </TabLayout>
                         <HorizontalLayout />

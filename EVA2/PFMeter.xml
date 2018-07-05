@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<Window size="530,395">
+<Window size="530,370">
     <VerticalLayout bordersize="1" width="530" height="395" bkcolor="#FFF0F0F0" bordercolor="#00C0DCC0">
         <HorizontalLayout name="HL_DUT" height="30">
             <Label bordersize="1" float="true" pos="6,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
@@ -24,16 +24,16 @@
             <Label text="Bin2" bordersize="1" float="true" pos="462,3,0,0" width="50" height="54" bkcolor="#FFC0DCC0" bkcolor2="#0000FFFF" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
         </HorizontalLayout>
         <HorizontalLayout name="HL_Sep1" width="530" height="2" bkcolor="#FF800000" />
-        <HorizontalLayout name="HL_Yield" width="530" height="210">
+        <HorizontalLayout name="HL_Yield" width="530" height="190">
             <Label text="Yield" bordersize="1" float="true" pos="6,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
-            <Slider text="95%" bordersize="1" float="true" pos="63,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" thumbsize="10,10" />
-            <Slider text="90%" bordersize="1" float="true" pos="120,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" thumbsize="10,10" />
-            <Slider text="89%" bordersize="1" float="true" pos="177,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" thumbsize="10,10" />
-            <Slider text="88%" bordersize="1" float="true" pos="234,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" thumbsize="10,10" />
-            <Slider text="95%" bordersize="1" float="true" pos="291,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" thumbsize="10,10" />
-            <Slider text="98%" bordersize="1" float="true" pos="348,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" thumbsize="10,10" />
-            <Slider text="95%" bordersize="1" float="true" pos="405,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" thumbsize="10,10" />
-            <Slider text="99%" bordersize="1" float="true" pos="462,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" thumbsize="10,10" />
+            <Slider text="95%" bordersize="1" float="true" pos="63,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" bkcolor="#FFFF0000" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="left" min="0" max="100" value="50" hor="false" enabled="true"  align="center" thumbsize="12,1" foreimage="file='../res/Slider/slider_fore1.png' mask='0xffff00ff'" thumbimage="file='Slider/SliderBar1.png' mask='0x0'" />
+            <Slider text="90%" bordersize="1" float="true" pos="120,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" bkcolor="#FFFF0000" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="left" min="0" max="100" value="50" hor="false" enabled="true" align="center" thumbsize="12,1" foreimage="file='../res/Slider/slider_fore1.png' mask='0xffff00ff'" thumbimage="file='Slider/SliderBar1.png' mask='0x0'"  />
+            <Slider text="89%" bordersize="1" float="true" pos="177,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" bkcolor="#FFFF0000" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="left" min="0" max="100" value="50" hor="false" enabled="true" align="center" thumbsize="12,1" foreimage="file='../res/Slider/slider_fore1.png' mask='0xffff00ff'" thumbimage="file='Slider/SliderBar1.png' mask='0x0'"  />
+            <Slider text="88%" bordersize="1" float="true" pos="234,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" bkcolor="#FFFF0000" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="left" min="0" max="100" value="50" hor="false" enabled="true" align="center" thumbsize="12,1" foreimage="file='../res/Slider/slider_fore1.png' mask='0xffff00ff'" thumbimage="file='Slider/SliderBar1.png' mask='0x0'"  />
+            <Slider text="95%" bordersize="1" float="true" pos="291,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" bkcolor="#FFFF0000" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="left" min="0" max="100" value="50" hor="false" enabled="true" align="center" thumbsize="12,1" foreimage="file='../res/Slider/slider_fore1.png' mask='0xffff00ff'" thumbimage="file='Slider/SliderBar1.png' mask='0x0'"  />
+            <Slider text="98%" bordersize="1" float="true" pos="348,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" bkcolor="#FFFF0000" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="left" min="0" max="100" value="50" hor="false" enabled="true" align="center" thumbsize="12,1" foreimage="file='../res/Slider/slider_fore1.png' mask='0xffff00ff'" thumbimage="file='Slider/SliderBar1.png' mask='0x0'"  />
+            <Slider text="95%" bordersize="1" float="true" pos="405,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" bkcolor="#FFFF0000" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="left" min="0" max="100" value="50" hor="false" enabled="true" align="center" thumbsize="12,1" foreimage="file='../res/Slider/slider_fore1.png' mask='0xffff00ff'" thumbimage="file='Slider/SliderBar1.png' mask='0x0'"  />
+            <Slider text="99%" bordersize="1" float="true" pos="462,5,0,0" width="50" height="200" bordercolor="#00C0DCC0" bkcolor="#FFFF0000" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="left" min="0" max="100" value="50" hor="false" enabled="true" align="center" thumbsize="12,1" foreimage="file='../res/Slider/slider_fore1.png' mask='0xffff00ff'" thumbimage="file='Slider/SliderBar1.png' mask='0x0'"  />
         </HorizontalLayout>
         <HorizontalLayout name="HL_Sep2" height="2" bkcolor="#FF000080" />
         <HorizontalLayout name="HL_Pass" width="530" height="30">
@@ -63,11 +63,11 @@
             <Label text="10000" bordersize="1" float="true" pos="63,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
             <Label text="12200" bordersize="1" float="true" pos="120,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
             <Label text="15000" bordersize="1" float="true" pos="177,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
-            <Label text="1200" bordersize="1" float="true" pos="234,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
-            <Label text="1300" bordersize="1" float="true" pos="291,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
-            <Label text="1400" bordersize="1" float="true" pos="348,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
-            <Label text="1700" bordersize="1" float="true" pos="405,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
-            <Label text="6005" bordersize="1" float="true" pos="462,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="1200"  bordersize="1" float="true" pos="234,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="1300"  bordersize="1" float="true" pos="291,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="1400"  bordersize="1" float="true" pos="348,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="1700"  bordersize="1" float="true" pos="405,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="6005"  bordersize="1" float="true" pos="462,3,0,0" width="50" height="25" bordercolor="#00C0DCC0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
         </HorizontalLayout>
     </VerticalLayout>
 </Window>

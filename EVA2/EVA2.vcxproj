@@ -72,7 +72,9 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="eva2nd.ico" />
-    <None Include="PFMeter.xml" />
+    <None Include="PFMeter.xml">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="ReadMe.txt" />
     <None Include="small.ico" />
   </ItemGroup>

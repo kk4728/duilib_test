@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="841,602">
+    <VerticalLayout bordersize="3" width="709" height="416" bordercolor="#000000FF">
+        <HorizontalLayout name="HL_Title" width="841" height="26">
+            <HorizontalLayout width="755" height="25">
+                <Control width="30" height="25" />
+                <Label height="25" bkcolor="#FF5D57FF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            </HorizontalLayout>
+            <HorizontalLayout height="25">
+                <Button width="27" height="25" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                <Button width="27" height="25" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                <Button width="27" height="25" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout name="HL_Menu" width="841" height="25" bkcolor="#FFC0C0C0">
+            <Button text="Init" width="54" height="25" textcolor="#00E9FFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button text="Config" width="54" height="25" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button text="History" width="54" height="25" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button text="Message" width="54" height="25" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button text="{u}{a}Help{a}{u}" width="54" height="25" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="center" />
+        </HorizontalLayout>
+        <HorizontalLayout height="524">
+            <VerticalLayout width="500" height="524">
+                <HorizontalLayout height="400">
+                    <VerticalLayout width="126" height="400">
+                        <HorizontalLayout width="126" height="278">
+                            <List bkcolor="#FF00FF00" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF">
+                                <ListHeader />
+                            </List>
+                        </HorizontalLayout>
+                        <HorizontalLayout bkcolor="#FFC0C0C0">
+                            <Button float="true" pos="10,13,0,0" width="105" height="45" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                            <Button float="true" pos="10,68,0,0" width="105" height="45" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                        </HorizontalLayout>
+                    </VerticalLayout>
+                    <HorizontalLayout bkcolor="#FFD200FF" bkcolor2="#00FFFFA0">
+                        <Label float="true" pos="42,57,0,0" width="25" height="243" bkcolor="#FF808000" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label float="true" pos="306,57,0,0" width="25" height="243" bkcolor="#FF808000" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label float="true" pos="75,57,0,0" width="25" height="243" bkcolor="#FF808000" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label float="true" pos="108,57,0,0" width="25" height="243" bkcolor="#FF808000" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label float="true" pos="141,57,0,0" width="25" height="243" bkcolor="#FF808000" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label float="true" pos="207,57,0,0" width="25" height="243" bkcolor="#FF808000" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label float="true" pos="240,57,0,0" width="25" height="243" bkcolor="#FF808000" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label float="true" pos="174,57,0,0" width="25" height="243" bkcolor="#FF808000" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label float="true" pos="273,57,0,0" width="25" height="243" bkcolor="#FF808000" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label float="true" pos="343,57,0,0" width="25" height="243" bkcolor="#FF808000" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label bordersize="2" float="true" pos="9,57,0,0" width="25" height="243" bkcolor="#FF808000" bordercolor="#000000FF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label bordersize="2" float="true" pos="9,300,0,0" width="25" height="44" bkcolor="#FF808000" bordercolor="#000000FF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label bordersize="2" float="true" pos="42,300,0,0" width="25" height="44" bkcolor="#FF808000" bordercolor="#000000FF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label bordersize="2" float="true" pos="75,300,0,0" width="25" height="44" bkcolor="#FF808000" bordercolor="#000000FF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label bordersize="2" float="true" pos="108,300,0,0" width="25" height="44" bkcolor="#FF808000" bordercolor="#000000FF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label bordersize="2" float="true" pos="141,300,0,0" width="25" height="44" bkcolor="#FF808000" bordercolor="#000000FF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label bordersize="2" float="true" pos="174,300,0,0" width="25" height="44" bkcolor="#FF808000" bordercolor="#000000FF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label bordersize="2" float="true" pos="207,300,0,0" width="25" height="44" bkcolor="#FF808000" bordercolor="#000000FF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label bordersize="2" float="true" pos="240,300,0,0" width="25" height="44" bkcolor="#FF808000" bordercolor="#000000FF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label bordersize="2" float="true" pos="273,300,0,0" width="25" height="44" bkcolor="#FF808000" bordercolor="#000000FF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label bordersize="2" float="true" pos="306,300,0,0" width="25" height="44" bkcolor="#FF808000" bordercolor="#000000FF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label bordersize="2" float="true" pos="342,300,0,0" width="25" height="44" bkcolor="#FF808000" bordercolor="#000000FF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                    </HorizontalLayout>
+                </HorizontalLayout>
+                <HorizontalLayout bkcolor="#FFF0F0F0">
+                    <HorizontalLayout height="26">
+                        <Label text="PinType and Initialization of All the IO Boards" height="26" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" align="center" />
+                    </HorizontalLayout>
+                    <VerticalLayout float="true" pos="0,25,0,0" width="500" height="97">
+                        <List itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF">
+                            <ListHeader />
+                        </List>
+                    </VerticalLayout>
+                </HorizontalLayout>
+            </VerticalLayout>
+            <VerticalLayout>
+                <Text text="Beginning..." textpadding="2,0,2,0" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" align="wrap" />
+            </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout name="HL_Status" height="26" bkcolor="#FFF0F0F0" />
+    </VerticalLayout>
+</Window>

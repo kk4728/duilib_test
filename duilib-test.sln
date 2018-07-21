@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EVA", "EVA\EVA.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EVA2", "EVA2\EVA2.vcxproj", "{107B88D0-215B-422B-A5DC-EFA627D991BF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T33x0", "T33x0\T33x0.vcxproj", "{3A9AEFA4-0F74-47F6-BE7A-07DE05942DCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -37,6 +39,10 @@ Global
 		{107B88D0-215B-422B-A5DC-EFA627D991BF}.Debug|Win32.Build.0 = Debug|Win32
 		{107B88D0-215B-422B-A5DC-EFA627D991BF}.Release|Win32.ActiveCfg = Release|Win32
 		{107B88D0-215B-422B-A5DC-EFA627D991BF}.Release|Win32.Build.0 = Release|Win32
+		{3A9AEFA4-0F74-47F6-BE7A-07DE05942DCC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3A9AEFA4-0F74-47F6-BE7A-07DE05942DCC}.Debug|Win32.Build.0 = Debug|Win32
+		{3A9AEFA4-0F74-47F6-BE7A-07DE05942DCC}.Release|Win32.ActiveCfg = Release|Win32
+		{3A9AEFA4-0F74-47F6-BE7A-07DE05942DCC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

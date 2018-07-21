@@ -1,11 +1,20 @@
 ###
 
+*.user
+*.filters
+*.vcxproj.user
+*.vcxproj.filters
+
+
 Debug/
 btnMsg/Debug/
 helloworld/Debug/
 Demo/Debug/
 
 EVA/Debug/
+T33x0/Debug/
+
+
 
 
 
